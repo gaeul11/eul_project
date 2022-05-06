@@ -75,18 +75,19 @@ section .logo > span:nth-of-type(4){color: #4284f3;}
 section .logo > span:nth-of-type(5){color: #44a852;}
 section .logo > span:nth-of-type(6){color: #EA4335;}
 section .main_search{
-    width: 100%; 
-    margin-top: 26px;
+    width: 80%; 
+    margin-top: 40px;
     height: 36px;
     border-radius: 22px;
     border: 1px solid rgb(211, 211, 211);
     outline: none;
     box-sizing: border-box;
-    padding-left: 36px;
+    
+    margin: 0 auto;
 }
 section > i{
     position: relative; 
-    top: -26px;
-    left: 12px;
+    top: 0px;
+    left: -40px;
     color: rgb(158, 158, 158);
 }
