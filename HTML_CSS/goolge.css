@@ -85,7 +85,7 @@ section .main_search{
     padding-left: 36px;
 }
 section > i{
-    position:relative; 
+    position: relative; 
     top: -26px;
     left: 12px;
     color: rgb(158, 158, 158);
