@@ -22,3 +22,14 @@ header .nav_bottom >ul {
 .container > .container_box01{
     display: flex; justify-content: space-between;
 }
+.container .box01{margin-top: 40px;}
+.container .box01 > ul{
+    display: flex; justify-content: space-between;
+}
+.container .box02_wrap{
+    display: flex; justify-content: space-between;
+}
+.container .box02_wrap > .box02_inner{
+    display: grid; 
+    grid-template-columns: 2fr 1fr ;
+}
