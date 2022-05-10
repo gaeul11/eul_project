@@ -1,0 +1,24 @@
+*{
+    margin: 0;padding: 0;background-color: #515151;
+    color: azure; list-style: none;
+}
+/*    header {
+        position: fixed;
+    }
+*/
+header nav{ font-size: 12px;}
+header .gnb_ft > span {margin:0 5px;}
+header .nav_top{
+    display: flex;justify-content: space-between;
+    margin: 10px 25px ;
+}
+header .nav_bottom >ul {
+    display: flex; justify-content: space-around;
+    margin-top: 40px;
+}
+
+/*  container  */
+.container{margin: 40px 100px;}
+.container > .container_box01{
+    display: flex; justify-content: space-between;
+}
