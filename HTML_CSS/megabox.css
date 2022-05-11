@@ -1,6 +1,6 @@
 *{
-    margin: 0;padding: 0;background-color: #515151;
-    color: azure; list-style: none;
+    margin: 0;padding: 0;background-color: #282727;
+    color: azure; list-style: none; text-decoration: none;
 }
 /*    header {
         position: fixed;
@@ -12,6 +12,7 @@ header .nav_top{
     display: flex;justify-content: space-between;
     margin: 10px 25px ;
 }
+header .nav_bottom{font-size: 12pt;}
 header .nav_bottom >ul {
     display: flex; justify-content: space-around;
     margin-top: 40px;
@@ -22,14 +23,52 @@ header .nav_bottom >ul {
 .container > .container_box01{
     display: flex; justify-content: space-between;
 }
-.container .box01{margin-top: 40px;}
-.container .box01 > ul{
-    display: flex; justify-content: space-between;
+/*container box02 */
+
+.container_box02{
+    margin: 40px 0;
 }
-.container .box02_wrap{
-    display: flex; justify-content: space-between;
+.container_box02 > ul{
+    display: flex;
+    justify-content: space-between;
 }
-.container .box02_wrap > .box02_inner{
-    display: grid; 
-    grid-template-columns: 2fr 1fr ;
+.container_box02 .btn_util{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.container_box02 .btn_util > .btn_like{
+    width: 80px; height: 30px;
+}
+.container_box02 .btn_util > .btn_like > i{
+    text-align: center;
+    margin-right: 4px;
+}
+.container_box02 .btn_util > .btn_book {
+    width: 160px; height: 30px; border: 1px solid snow;
+    text-decoration: none; text-align: center; line-height: 30px;
+    font-weight: bold; border-radius: 4px;
+}
+.container_box02 .btn_util > .btn_book:hover{
+    background-color: rgb(241, 241, 241); color: rgb(42, 40, 40);
+}
+
+/*container 03 */
+.container_box03{
+    background-color: rgb(26, 26, 26);
+    width: 90%; margin: 0 auto;}
+.box03_wrap{
+    display: flex; justify-content: space-between;
+    margin-top: 100px;
+}
+.box03_wrap > div{
+    text-align: center; width: 280px;
+}
+.box03_wrap > div > span{
+    margin-right: 10px; display: inline-block;
+    height:40px; line-height: 40px;
+}
+.box03_wrap > div > span > input{
+    height: 30px; width: 180px; border-radius: 4px;
+    border: 1px solid rgb(241, 241, 241);
 }
