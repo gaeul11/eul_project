@@ -55,20 +55,17 @@ header .nav_bottom >ul {
 
 /*container 03 */
 .container_box03{
-    background-color: rgb(26, 26, 26);
-    width: 90%; margin: 0 auto;}
-.box03_wrap{
-    display: flex; justify-content: space-between;
-    margin-top: 100px;
+    background-color: rgba(26, 26, 26,0.2);
+    width: 90%; margin: 0 auto; 
 }
-.box03_wrap > div{
-    text-align: center; width: 280px;
+.container_box03 .search_link{
+    padding: 28px 0; display: flex; justify-content: space-between;
 }
-.box03_wrap > div > span{
-    margin-right: 10px; display: inline-block;
-    height:40px; line-height: 40px;
+.container_box03 .cell{
+    border: none;
 }
-.box03_wrap > div > span > input{
-    height: 30px; width: 180px; border-radius: 4px;
-    border: 1px solid rgb(241, 241, 241);
+input{border: none;}
+input:focus{outline: none; border: none;}
+.cell > button{
+    border: none;
 }
