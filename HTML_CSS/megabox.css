@@ -69,3 +69,7 @@ input:focus{outline: none; border: none;}
 .cell > button{
     border: none;
 }
+
+.scroll{
+    margin: 0 auto; text-align: center; margin-top: 40px;
+}
