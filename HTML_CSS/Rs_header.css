@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: rgb(5, 41, 55);
+    color: snow;
+}
+a{
+    text-decoration: none;
+}
+.menu_logo > i{
+    color: #e0b310;
+}
