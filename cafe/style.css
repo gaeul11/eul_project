@@ -1,0 +1,28 @@
+@charset 'utf-8';
+@font-face {
+    font-family: 'HallymMjo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymMjo-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0; padding: 0;
+}
+
+a{text-decoration: none;}
+h1{font-size: 1.8em;}
+h2{font-size: 1.3em;}
+p{
+    font-size: 1.3em; line-height: 2;
+}
+li{
+    font-size: 1em; line-height: 2;
+}
+
+body{
+    width: 1200px; margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-family:'HallymMjo-Regular' cursive; 
+}
