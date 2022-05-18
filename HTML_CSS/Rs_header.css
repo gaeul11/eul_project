@@ -25,3 +25,28 @@ ul{ list-style: none; margin: 0; display: flex;
 .menu_icon > li{
     padding: 8px 10px; font-size: 18px;
 }
+.hamburger_bar{ display: none;
+    position: absolute; color: snow; 
+    top: 6px; right: 20px; font-size: 20px;
+}
+
+/* Max-width 768px */
+@media all and (max-width: 768px){
+    nav{
+        display: flex; flex-direction: column;
+    }
+    .menu_bar{
+        display: flex; width: 100%; text-align: center;
+        flex-direction: column;
+    }
+    .menu_bar li:hover{
+        background-color: #e0b310;
+    }
+    .menu_icon{
+        display: none;
+    }
+    .hamburger_bar{
+       display: block;
+   } 
+}
+    
