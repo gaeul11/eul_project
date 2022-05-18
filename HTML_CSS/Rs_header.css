@@ -39,11 +39,11 @@ ul{ list-style: none; margin: 0; display: flex;
         display: flex; width: 100%; text-align: center;
         flex-direction: column;
     }
+    .menu_icon{
+        display: flex; justify-content: center; 
+    }
     .menu_bar li:hover{
         background-color: #e0b310;
-    }
-    .menu_icon{
-        display: none;
     }
     .hamburger_bar{
        display: block;
