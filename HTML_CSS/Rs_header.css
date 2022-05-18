@@ -3,11 +3,25 @@ body{
 }
 nav{
     background-color: rgb(5, 41, 55);
-    color: snow;
+    color: snow; display: flex;
+    justify-content: space-between;
 }
 a{
-    text-decoration: none;
+    text-decoration: none; color: snow;
+}
+ul{ list-style: none; margin: 0; display: flex; 
+    justify-content: space-between;
+    padding-inline-start: 0;
+}
+.menu_logo{
+    padding: 8px 16px; font-size:18px ;
 }
 .menu_logo > i{
-    color: #e0b310;
+    color: #e0b310; font-size: 24px;
+}
+.menu_bar > li{
+    padding: 8px 16px;
+}
+.menu_icon > li{
+    padding: 8px 10px; font-size: 18px;
 }
