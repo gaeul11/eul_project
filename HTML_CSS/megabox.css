@@ -1,12 +1,13 @@
 *{
-    margin: 0;padding: 0;background-color: #282727;
+    margin: 0;padding: 0;background-color: #3f3d3d;
     color: azure; list-style: none; text-decoration: none;
 }
 /*    header {
         position: fixed;
     }
 */
-header nav{ font-size: 12px;}
+
+header nav{ font-size: 12px; margin-bottom: 10px;}
 header .gnb_ft > span {margin:0 5px;}
 header .nav_top{
     display: flex;justify-content: space-between;
@@ -55,17 +56,28 @@ header .nav_bottom >ul {
 
 /*container 03 */
 .container_box03{
-    background-color: rgba(26, 26, 26,0.2);
     width: 90%; margin: 0 auto; 
 }
 .container_box03 .search_link{
-    padding: 28px 0; display: flex; justify-content: space-between;
+    padding: 20px 0; display: flex; justify-content: space-around;
+    background-color: rgba(48, 47, 47, 0.77);
+    box-sizing: border-box;    
 }
 .container_box03 .cell{
     border: none;
+    background-color: transparent;
+    padding: 10px;
 }
-input{border: none;}
+.container_box03 .cell:nth-child(1){
+    border-bottom: 1px solid #e6e5e5;
+}
+input{
+    border: none; background-color: transparent;    
+}
 input:focus{outline: none; border: none;}
+.cell a{
+    background-color: transparent;
+}
 .cell > button{
     border: none;
 }

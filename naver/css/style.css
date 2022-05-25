@@ -30,7 +30,7 @@
     width: 1300px;
     margin: 0 auto;
 }
-.shop_container ul{
+.shop_container > ul{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -38,4 +38,214 @@
 }
 .shop_container ul li{
     margin-right: 16px;
+}
+/* list_item 정렬 */
+#shop_main .list_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* list_item box설정 */
+#shop_main .list_item{
+    width:308px; height: 496px;
+    background-color: bisque;
+    margin-bottom: 20px;
+}
+/* 카테고리 테두리 만들기 */
+.shop_border{
+    border: 1px solid #ced2d7;
+}
+/* 첫번째 박스 정렬  */
+#shop_main .list_item .category_wrap{
+    overflow: hidden;
+}
+#shop_main .list_item .category_wrap .category_left{
+    width: 124px;
+    height: 496px;
+    float: left; background-color: #333949;
+}
+/* 첫번째 박스 : 글씨 */
+#shop_main .list_item .category_wrap .category_left h3{
+    color: rgba(255, 255, 255, 0.46);
+    padding: 14px 0 13px;
+    font-size: 13px;
+}
+#shop_main .list_item .category_wrap .category_left a{
+    display: block;
+    color: rgba(255, 255, 255, 0.46);
+    padding: 7px 8px;
+    font-size: 13px;
+    font-weight: 700;
+}
+/* 첫번째 박스의 오른쪽영역 */
+#shop_main .list_item .category_wrap .category_right{
+    width: 182px;
+    height: 496px;
+    float: right;
+    background-color: #fff;
+    text-align: center;
+}
+#shop_main .list_item .category_wrap .category_right .category_right_top{
+    width: 100%;
+    height: 306px;
+    border-bottom: 1px solid #ced2d7;
+}
+#shop_main .category_right_top .category_info{
+    padding: 20px 0;
+    text-align: center;    
+}
+#shop_main .category_right_top .category_info h3{
+    font-size: 16px;
+}
+#shop_main .category_right_top .category_info .price{
+    font-size: 15px;
+    color: skyblue;
+}
+#shop_main .category_right .headline{
+    font-size: 12px;
+    border: 1px solid #00ab33;
+    color: #00ab33;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+/* 오른쪽 위박스의 img 영역 */
+#shop_main .category_right_top .image_wrap{
+    text-align: center;
+}
+
+/* 오른쪽 아래박스 영역 */
+#shop_main .category_right_bottom .tag{
+    background-color: #e8eef4;
+    color: #666;
+    font-size: 12px;
+    display: inline-block;
+    padding: 0 5px;
+    margin: 6px 1px 0 1px;
+    /* 최대 넓이 고정 */
+    max-width: 110px;
+    height: 24px;
+    line-height: 26px;
+    vertical-align: top;
+}
+/* 두번째 박스 이미지 채우기 */
+.w-100{
+    width: 100%;
+}
+.h-100{
+    height: 100%;
+}
+#shop_main .list_item .banner img{
+    width: 100%; height: 100%;
+}
+
+/* 세번째 공간 분할 */
+#shop_main .list_item .list_half{
+    width: 100%;
+    height: 240px;
+    background-color: #fff;
+}
+/* 상하 박스 배치 */
+#shop_main .list_item .list_half .list_half_top{
+    position: absolute;
+    left: 0; top: 0;
+    background-color: #fff; 
+}
+#shop_main .list_item .list_half .list_half_bottom{
+    position: absolute;
+    left: 0; bottom: 0;
+    background-color: #fff;
+}
+#shop_main .list_item .list_half .list_half_header{
+    width: 100%;
+    height: 62px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 1px solid #ced2d7;
+    position: relative;
+}
+#shop_main .list_item .list_half  .list_half_header .half_over_lay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#shop_main .list_item .list_half .list_half_bg{
+    padding-top: 0;
+    border-bottom: 1px solid #ced2d7 ;
+    background-color: green;
+}
+#shop_main .list_item .list_half .list_half_bg .shop_title_border{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 2px 4px;
+    border: 1px solid #fff;
+    display: inline-block;
+    color: #fff;
+}
+#shop_main .list_item .list_half .list_half_header h3{
+    font-size: 14px;
+}
+
+/* 상단 content_list 관련 */
+#shop_main .list_item .list_half .content_lists{
+    overflow: hidden;
+    height: 177px;
+}
+#shop_main .list_item .list_half .content_lists_3 li{
+    float: left;
+    width: 33%;
+    height: 100%;
+    border-right: 1px solid #fefefe;
+    text-align: center;
+}
+#shop_main .list_item .list_half .content_lists_3 li:last-child{
+    border-right: none;
+}
+#shop_main .list_item .list_half .content_lists_3 li img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+}
+#shop_main .list_item .list_half .content_lists_3 li h3{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+#shop_main .list_item .list_half .content_lists_3 li span{
+    font-size: 12px;
+}
+
+#shop_main .list_item .list_half .content_lists_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 11px;
+}
+#shop_main .list_item .list_half .content_lists_2 li{
+    width: 130px;
+    height: 150px;
+    margin-right: 8px;
+}
+#shop_main .list_item .list_half .content_lists_2 li:last-child{
+    margin-right: none;
+}
+#shop_main .list_item .list_half .content_lists_2 .content_image_wrap{
+    position: relative;
+}
+#shop_main .list_item .list_half .content_lists_2 .content_image_wrap .discount{
+    position: absolute;
+    top: 6px;
+    right: 5px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 14px;
+    text-align: center;
+    background-color: orange;
+    color: #fff;
+    line-height: 42px;
+}
+#shop_main .list_item .list_half .content_lists_2 li{
+
 }
