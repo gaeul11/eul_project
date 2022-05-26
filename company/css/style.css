@@ -156,3 +156,67 @@ pre{
 
 
 /* -- container __ connect --*/
+#connect{
+    width: 100%;
+}
+#connect #connect_wrap{
+    width: 100%;
+    background: url(../image/마스크\ 그룹\ 1.png) no-repeat
+                center center;
+    background-size: cover; height: 400px;   
+}
+#connect #connect_wrap #connect_title{
+    width: 848px; text-align: center;  
+    padding: 120px 0 0 0; box-sizing: border-box;
+}
+
+#connect #connect_wrap #connect_title h2,
+#connect #connect_wrap #connect_title p{
+    color: #fff; 
+}
+#connect #connect_wrap #connect_title h2{
+    font-weight:400; font-size: 48px;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+#connect #connect_wrap #connect_title > p{
+    font-size: 15px; letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+#connect #connect_wrap #connect_title button{
+    width: 160px; height: 40px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+#connect #connect_wrap #connect_title button a{
+    text-decoration: none;
+}
+
+/* __footer__*/
+footer{
+    background-color: #313030;
+    width: 100%;
+}
+footer .footer_wrap{
+    width: 1280px; margin: 0 auto;
+    padding: 20px 0; 
+}
+footer .footer_wrap .footer_inner{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    
+}
+footer .footer_wrap p{
+    color: #fff;
+}
+/* __footer__logo__*/
+
+footer .footer_wrap .footer_logo p{
+    font-size: 40px; font-weight:60;
+    line-height: 100px;
+}
+/* __footer__text__*/
+footer .footer_wrap .footer_text p{
+    font-size: 15px;padding: 2px 0;
+}
